@@ -1,0 +1,42 @@
+.consumption { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  &-table {
+    @extend .pharoes-card;
+    background-color: #fff;
+    max-height: 25vh;
+    overflow-y: scroll;
+  }
+
+  &-helper {
+    @extend .pharoes-card;
+    color: #7a7a7a;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+
+    span {
+      margin: 3rem;
+    }
+  }
+
+  &-chart {
+    @extend .pharoes-card;
+    // width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-details {
+    &__table {
+      margin: 2rem 0;
+      width: 100%;
+    }
+  }
+}

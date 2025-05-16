@@ -1,0 +1,24 @@
+.profiles__table {
+  @extend .pharoes-card;
+
+  .pagination{
+    width: 100%;
+  }
+}
+
+.is-file {
+  display: flex;
+  align-items: center;
+  svg {
+    font-size: .9rem;
+    margin-right: 0.3rem;
+  }
+}
+
+.is-comment, .is-formula, .is-rule {
+  font-size: .8rem;
+}
+
+.is-formula, .is-rule {
+  font-family: monospace;
+}

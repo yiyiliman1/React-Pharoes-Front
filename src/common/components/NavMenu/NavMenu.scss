@@ -1,0 +1,33 @@
+.nav-menu-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .nav-menu-header {
+    flex: none;
+    background: #c36f3b; //#232f3e
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #16212e;
+
+    span {
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: .6rem 1rem;
+    }
+  }
+
+  .nav-menu {
+    flex: 1;
+    background-color: #1b2430 !important;
+    color: #c3c3c3;
+
+    .Mui-selected span {
+      font-weight: 600 !important;
+    }
+  }
+}

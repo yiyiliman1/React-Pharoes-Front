@@ -1,0 +1,46 @@
+.main-header {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #232f3e;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 1.5rem;
+  }
+
+  .project-select {
+    .MuiInputBase-input {
+      padding: 10px 14px;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border: none;
+    }
+  }
+
+  .user-menu-button {
+    margin-left: 0;
+
+    .avatar {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+$background: darken(#fcfcfc, .25);
+
+.regular-view {
+  height: 100vh;
+
+
+  .header {
+    background-color: #fff;
+    height: 3rem;
+    border-bottom: 1px solid #f0f1f5;
+  }
+
+  .left-column {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20rem;
+  }
+
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    background-color: $background;
+
+    &.without-navmenu {
+      margin-left: 0;
+      align-items: center;
+      
+      .content {
+        max-width: 80vw;
+        width: 80rem;
+      }
+    }
+
+    .content {
+      flex: 1;
+      background-color: $background;
+      padding: .5rem 2rem 2rem;
+
+      .breadcrumb {
+        margin-top: .5rem;
+        * {
+          font-size: .9rem;
+        }
+        .MuiBreadcrumbs-separator {
+          margin: 0 6px;
+        }
+      }
+    }
+  }
+}

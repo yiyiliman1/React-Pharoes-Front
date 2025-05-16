@@ -1,0 +1,89 @@
+@import 'header', 'forms', 'pageTitle', 'modules', 'dataGrid';
+@import './layouts/index.scss';
+
+$background: darken(#fcfcfc, .25);
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.related-value-reference {
+  font-size: 13px;
+  color: #7a7a7a;
+}
+
+.no-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.under-link {
+  color: inherit;
+  text-decoration: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.icon-buttom {
+  background: #203083 !important;
+  padding: .7rem !important;
+  color: #fff !important;
+  box-shadow: 0px 1px 2px #00000061;
+  
+  &.Mui-disabled {
+    opacity: .5;
+  }
+}
+
+.pharoes-card {
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.complex-filter {
+  display: flex;
+  flex-direction: row;
+  gap: .1rem;
+
+  &_children {
+    flex: 1;
+  }
+  
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &_radio-container {
+    display: flex;
+  }
+}
+
+.icon-button-active {
+  background: #b7631c !important;
+  padding: .7rem !important;
+  color: #fff !important;
+  box-shadow: 0px 1px 2px #00000061;
+
+  &.Mui-disabled {
+    opacity: .5;
+  }
+}

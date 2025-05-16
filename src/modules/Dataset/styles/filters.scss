@@ -1,0 +1,87 @@
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  margin: 1.5rem 1rem;
+  
+  
+  &_name {
+    align-self: baseline;
+    font-weight: 600;
+    width: 8rem;
+  }
+
+  &_content {
+    flex: 1;
+  }
+}
+
+.operator-filter-form {
+  display: flex;
+  gap: .3rem;
+
+  .value {
+    flex: 1;
+  }
+}
+
+.filter-dataset-dialog {
+  .button-container {
+    display: flex;
+    justify-content: right;
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+
+.sort-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.number-filter {
+  display: flex;
+  align-items: center;
+
+  &__input {
+    flex: 1;
+  }
+
+  span {
+    margin: 0 .5rem;
+  }
+}
+
+.string-input {
+  width: 100%;
+}
+
+.boolean-filter_global-container {
+  display: flex;
+  width: 100%; 
+  justify-content: center;
+}
+
+.boolean-filter_select-container {
+  flex-grow: 3;
+}
+
+.boolean-filter_radio-container {
+  display: flex;
+  flex-direction: row;
+  gap: .1rem;
+  flex-grow: 1;
+
+  &_children {
+    flex: 1;
+  }
+  
+  &-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &_radio-container {
+    display: flex;
+  }
+}

@@ -1,0 +1,25 @@
+
+.create-dataset-dialog {
+  margin-top: 1rem;
+  
+  .column-form {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin: .2rem;
+
+    label.Mui-disabled {
+      opacity: 0;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+div.filter-item-search {
+  padding: 0 10px;
+  box-sizing: border-box;
+}

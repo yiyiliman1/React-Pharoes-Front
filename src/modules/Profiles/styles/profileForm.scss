@@ -1,0 +1,41 @@
+.profile-form {
+  .form {
+    margin-top: .25rem;
+    width: 100%;
+    gap: 1rem;
+
+    .formula-section {
+      margin-top: -.8rem;
+    }
+
+    .file-section {
+      margin-top: -1rem;
+    }
+
+    .form-section {
+      display: flex;
+      padding: .25rem 0 .25rem 2rem;
+
+      &.no-selected {
+        opacity: 0.4;
+      }
+
+      .MuiFormControl-root {
+        width: 100%;
+      }
+
+      .upload-button__filename {
+        font-size: 1rem;
+        margin-left: 1rem;
+      }
+
+    }
+  }
+
+  .profile-form-buttons {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+

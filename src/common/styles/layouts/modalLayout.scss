@@ -1,0 +1,17 @@
+
+.modal-layout {
+  background-color: #1b2430;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    background-color: #fff;
+    width: 30rem;
+    max-width: 100%;
+    min-height: 10rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+.dataset-content {
+  &__loading {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    > * {
+      width: 100% !important;
+    }
+  }
+}
+
+.MuiDataGrid-cell--withRenderer {
+  display: block !important;
+}
+
+.react-json-view {
+  .icon-container {
+    font-size: .7rem;
+  } 
+}
